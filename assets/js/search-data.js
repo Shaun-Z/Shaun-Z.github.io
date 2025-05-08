@@ -495,7 +495,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Xiangyu Zhou", "_blank");
+          window.open("https://www.linkedin.com/in/xiangyu-zhou-86ba89290", "_blank");
         },
       },{
         id: 'social-custom_social',
