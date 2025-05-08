@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Xiangyu Zhou",
+    "label": "Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "xiangyuzhou823@gmail.com",
+    "phone": "(602) 505-4017",
+    "url": "https://shaun-z.github.io/",
+    "summary": "I am a student at Arizona State University, majoring in Electrical Engineering. I am passionate about machine learning. I have a strong background in electrical engineering and computer science.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "551 E Tyler Mall",
+      "postalCode": "AZ 85281",
+      "city": "Tempe",
       "countryCode": "US",
-      "region": "California"
+      "region": "Arizona"
     },
     "profiles": [
       {
@@ -24,12 +24,12 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Ira A. Fulton Schools of Engineering, Arizona State University",
+      "position": "Research Assistant",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "startDate": "2023-08-07",
+      "endDate": "2025-05-11",
+      "summary": "I am a research assistant at the Ira A. Fulton Schools of Engineering at Arizona State University. I am working on a project related to explainable artificial intelligence.",
       "highlights": ["Relativity"]
     }
   ],
@@ -47,15 +47,15 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Huazhong University of Science and Technology",
+      "location": "Wuhan, China",
+      "url": "https://www.hust.edu.cn/",
+      "area": "Telecommunications Engineering",
+      "studyType": "B.S.",
+      "startDate": "2019-01-01",
+      "endDate": "2023-06-30",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Calculus", "Linear Algebra", "Probability Theory and Mathematical Statistics", "Physics", "Analog Circuit and Digital System"]
     }
   ],
   "awards": [
@@ -74,41 +74,6 @@
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
