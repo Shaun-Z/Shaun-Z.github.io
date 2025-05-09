@@ -2,13 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://engineering.asu.edu/'>Ira A. Fulton Schools of Engineering | Arizona State University</a>. xzhou185@asu.edu.
+subtitle: <a href='https://engineering.asu.edu/'>Ira A. Fulton Schools of Engineering | Arizona State University</a>.
 
 profile:
   align: right
   image: prof_pic.png
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
+    <p>xzhou185@asu.edu</p>
     <p>551 E Tyler Mall</p>
     <p>Tempe, AZ 85281</p>
 
