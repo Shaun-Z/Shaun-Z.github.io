@@ -5,4 +5,5 @@ repo_description_lines_max: 2
 
 github_repos:
   - Shaun-Z/ML-Testbench
+  - Shaun-Z/XAI_From_Classical_Models_to_LLMs
 
