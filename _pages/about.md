@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello there! I'm Xiangyu $\left[\large{\textup{ʃjɑːŋ juː}}\right]$, a graduate student with a background in Telecommunication Engineering, currently delving into the fascinating world of Machine Learning. Currently I am a MS/PhD student at Arizona State University. During my undergraduate years, I was a member of [Science and Technology Innovation Center](https://news.hust.edu.cn/info/1003/8062.htm) at [Huazhong University of Science and Technology](https://english.hust.edu.cn/) and served as a TA as well.
+Hello there! I'm Xiangyu $\left[\large{\textup{ʃjɑːŋ juː}}\right]$, a graduate student with a background in Telecommunication Engineering, currently delving into the fascinating world of Machine Learning. Currently I am a MS student at Arizona State University. During my undergraduate years, I was a member of [Science and Technology Innovation Center](https://news.hust.edu.cn/info/1003/8062.htm) at [Huazhong University of Science and Technology](https://english.hust.edu.cn/) and served as a TA as well.
 
 I am passionate about leveraging the power of communication technology and machine learning to solve real-world problems. My academic journey has equipped me with a solid foundation in communication engineering, and now I am excited to explore the endless possibilities that machine learning offers.
 

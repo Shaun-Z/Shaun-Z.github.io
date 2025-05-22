@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Enrolled in **Arizona State University** for a doctoral degree. 🎓
+Enrolled in **Arizona State University** for a master's degree. 🎓
