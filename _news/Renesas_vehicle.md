@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Ranked in the **top 8** in the "Renesas" HUST Undergraduates Intelligent Vehicle Championship. 🏎️
+We ranked in the **top 8** in the "Renesas" HUST Undergraduates Intelligent Vehicle Championship. 🏎️

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Obtained the **Bachelor's degree** in Communication Engineering from Huazhong University of Science and Technology. 🎓
+I obtained the **Bachelor's degree** in Communication Engineering from Huazhong University of Science and Technology. 🎓
