@@ -239,10 +239,10 @@
   ],
   "references": [
     {
-      "name": "Professor Yang Weng",
+      "name": "",
       "icon": "fa-solid fa-tag",
-      "url": "https://search.asu.edu/profile/917711",
-      "reference": "Yang Weng is an associate professor at the School of Electrical, Computer and Energy Engineering of Arizona State University. Weng's research interests include power systems, machine learning, demand response, data analytics, cyber-physical systems and convex optimization."
+      "url": "",
+      "reference": ""
     }
   ]
 }
