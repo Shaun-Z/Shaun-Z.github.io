@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I enrolled in [**Arizona State University**](https://ecee.engineering.asu.edu/) as a graduate student. 🎓
+I enrolled in [Arizona State University](https://ecee.engineering.asu.edu/) as a graduate student. 🎓
