@@ -19,7 +19,7 @@ related_publications: true
 
 ## Automatic Gain Control (AGC) Circuit
 
-Automatic gain control (**AGC**) is a closed-loop [feedback](https://en.wikipedia.org/wiki/Feedback) regulating circuit in an [amplifier](https://en.wikipedia.org/wiki/Amplifier) or chain of amplifiers, the purpose of which is to maintain a suitable signal amplitude at its output, despite variation of the signal amplitude at the input. The average or peak output signal level is used to dynamically adjust the [gain](https://en.wikipedia.org/wiki/Gain_(electronics)) of the amplifiers, enabling the circuit to work satisfactorily with a greater range of input signal levels. It is used in most [radio receivers](https://en.wikipedia.org/wiki/Radio_receiver) to equalize the average volume ([loudness](https://en.wikipedia.org/wiki/Loudness)) of different radio stations due to differences in received [signal strength](https://en.wikipedia.org/wiki/Signal_strength), as well as variations in a single station's radio signal due to [fading](https://en.wikipedia.org/wiki/Fading). Without AGC the sound emitted from an [AM](https://en.wikipedia.org/wiki/Amplitude_modulation) [radio](https://en.wikipedia.org/wiki/Radio) receiver would vary to an extreme extent from a weak to a strong signal; the AGC effectively reduces the volume if the signal is strong and raises it when it is weaker. In a typical receiver the AGC feedback control signal is usually taken from the [detector](https://en.wikipedia.org/wiki/Detector_(radio)) stage and applied to control the gain of the IF or RF amplifier stages.
+Automatic gain control (**AGC**) is a closed-loop [feedback](https://en.wikipedia.org/wiki/Feedback) regulating circuit in an [amplifier](https://en.wikipedia.org/wiki/Amplifier) or chain of amplifiers, the purpose of which is to maintain a suitable signal amplitude at its output, despite variation of the signal amplitude at the input. The average or peak output signal level is used to dynamically adjust the [gain](<https://en.wikipedia.org/wiki/Gain_(electronics)>) of the amplifiers, enabling the circuit to work satisfactorily with a greater range of input signal levels. It is used in most [radio receivers](https://en.wikipedia.org/wiki/Radio_receiver) to equalize the average volume ([loudness](https://en.wikipedia.org/wiki/Loudness)) of different radio stations due to differences in received [signal strength](https://en.wikipedia.org/wiki/Signal_strength), as well as variations in a single station's radio signal due to [fading](https://en.wikipedia.org/wiki/Fading). Without AGC the sound emitted from an [AM](https://en.wikipedia.org/wiki/Amplitude_modulation) [radio](https://en.wikipedia.org/wiki/Radio) receiver would vary to an extreme extent from a weak to a strong signal; the AGC effectively reduces the volume if the signal is strong and raises it when it is weaker. In a typical receiver the AGC feedback control signal is usually taken from the [detector](<https://en.wikipedia.org/wiki/Detector_(radio)>) stage and applied to control the gain of the IF or RF amplifier stages.
 
 --- From [Wikipedia](https://en.wikipedia.org/wiki/Automatic_gain_control)
 
@@ -66,8 +66,6 @@ For the AGC output signal $Vo$, envelope detection is required to obtain the amp
 <div class="caption">
     In the circuit above, the first stage op-amp is able to acquire information about the amplitude of the input signal and apply a voltage to the capacitor $C2$, while $R3$ and $C2$ form an RC loop that is able to discharge through $R3$ when the signal amplitude drops. The rate of discharge depends on the time constant $\tau=R3\cdot C2$.
 </div>
-
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -147,4 +145,3 @@ Set the simulation type to transient response simulation with a total duration o
         Details after stabilization. The white line is the final output.
     </div>
 </div>
-    

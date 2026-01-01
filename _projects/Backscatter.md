@@ -29,21 +29,23 @@ BackCom works by generating a modulated reflection (backscatter modulation) in a
     The hardware circuits in this project refer to a large number of circuit schemes on the Internet about RF energy harvesting. In addition also referred to the TI official as well as many hardware enthusiasts of the microcontroller program, after a week or so, the design of the initial version of the PCB board.
 </div>
 
-Two options: 
-1. Used low-power Bluetooth Micro Controller Unit (MCU) CC2640 to realize active Bluetooth communication and periphery of MCU for passive communication; 
+Two options:
+
+1. Used low-power Bluetooth Micro Controller Unit (MCU) CC2640 to realize active Bluetooth communication and periphery of MCU for passive communication;
 2. Used FPGA AGLN020 with peripheral circuits of Backscattering and energy collection for passive modulation and wireless energy supply and RF carrier supply.
+
 - Option 1:
-  - Composed MCU codes on development board, modified routine codes and made modification according to requirements, which successfully realizes active communication, reading and sending function of humidity and temperature information in sensor. 
+  - Composed MCU codes on development board, modified routine codes and made modification according to requirements, which successfully realizes active communication, reading and sending function of humidity and temperature information in sensor.
   - Searched the circuit scheme of RF energy collection, referring to MCU schemes and successfully designed first-version PCB
   - Encountered failure in passive communication because the maximum interrupt frequency supported by the MCU is far lower than code rate of Bluetooth
 - Option 2
-  - Wrote Verilog codes to compose message structure of Bluetooth on FPGA 
+  - Wrote Verilog codes to compose message structure of Bluetooth on FPGA
   - Simulated the waveform timing and confirmed with no problems
   - Finished PCB circuit design with well-assembled board
   - Downloaded the program to the board, used a high-power RF signal source to provide the carrier, and used a packet sniffer to grab the Bluetooth packet
-  - Modified problematic codes according to the captured Bluetooth package 
+  - Modified problematic codes according to the captured Bluetooth package
   - Results: realized passive communication function using FPGA and switched to use smaller-sized AGLN020 to shrink occupied resources
   - Improvements: Energy collection efficiency and the interaction between nodes and users need to be improved
 - Patents：
-  - CN114679715A (A low power Bluetooth Backscatter communication method based on connection)  Jun. 28 2022
+  - CN114679715A (A low power Bluetooth Backscatter communication method based on connection) Jun. 28 2022
   - CN114884596A (An adaptive method, device and system for backscatter bit rate based on energy sensing) Aug.9 2022
