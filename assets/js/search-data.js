@@ -421,6 +421,11 @@ ninja.data = [{
           description: "&#39;Internet+&#39; competition",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Backscatter/";
+            },},{id: "projects-reproduction-of-legrad",
+          title: 'Reproduction of LeGrad',
+          description: "An Explainability Method for Vision Transformers via Feature Formation Sensitivity",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/LeGrad/";
             },},{id: "projects-signal-distortion-measuring-device",
           title: 'Signal Distortion Measuring Device',
           description: "Undergraduate Graduation Design",
