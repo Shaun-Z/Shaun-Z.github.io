@@ -10,7 +10,7 @@ related_publications: true
 
 ## Overview
 
-I recently implemented an enhanced version of **LeGrad**, an explainability method for Vision Transformers that reveals how these models form features through gradient-based analysis. My implementation adds **batch computation support**, significantly improving efficiency when analyzing multiple images. 
+I recently implemented an enhanced version of [**LeGrad**](https://arxiv.org/abs/2404.03214), an explainability method for Vision Transformers that reveals how these models form features through gradient-based analysis. My implementation adds **batch computation support**, significantly improving efficiency when analyzing multiple images. 
 
 LeGrad helps us peek inside the "black box" of Vision Transformers by visualizing attention patterns and feature formation across different layers, making AI decisions more interpretable and trustworthy.
 
@@ -18,7 +18,7 @@ LeGrad helps us peek inside the "black box" of Vision Transformers by visualizin
 
 ## What is LeGrad?
 
-LeGrad (Learning Gradient) is an explainability method introduced at ICCV 2025 that analyzes Vision Transformers by examining feature formation sensitivity. Unlike traditional attention visualization methods, LeGrad provides deeper insights into how features are progressively built throughout the network layers.
+LeGrad (a **L**ayerwise **E**xplainability method that utilizes the **Grad**ient with respect to attention maps) is an explainability method introduced at ICCV 2025 that analyzes Vision Transformers by examining feature formation sensitivity. Unlike traditional attention visualization methods, LeGrad provides deeper insights into how features are progressively built throughout the network layers.
 
 **Key Innovation:** My implementation extends the original work to support batch processing, enabling efficient analysis of multiple images simultaneously. 
 
