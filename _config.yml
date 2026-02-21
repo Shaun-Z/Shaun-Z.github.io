@@ -197,7 +197,6 @@ exclude:
   - _pages/blog.md
   - _pages/dropdown.md
   - _pages/profiles.md
-  - _pages/publications.md
   - _pages/teaching.md
   - _projects/*_project.md
 keep_files:
@@ -272,8 +271,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Zhou]
+  first_name: [Xiangyu]
 
   style: apa
   locale: en
@@ -641,7 +640,7 @@ jsonresume:
   - basics
   - work
   - education
-  # - publications
+  - publications
   - projects
   - volunteer
   - awards
