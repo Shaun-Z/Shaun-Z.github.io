@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://engineering.asu.edu/'>Ira A. Fulton Schools of Engineering | Arizona State University</a>.
+subtitle: <a href='https://engineering.asu.edu/'>PhD Student</a>.
 
 profile:
   align: right
@@ -10,8 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>xzhou185@asu.edu</p>
-    <p>551 E Tyler Mall</p>
-    <p>Tempe, AZ 85281</p>
+    <p>ISTB4 470 Tempe, AZ 85281</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,9 +26,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello there! I'm Xiangyu $\left[\large{\textup{ʃjɑːŋ juː}}\right]$, a graduate student with a background in Telecommunication Engineering, currently delving into the fascinating world of Machine Learning. Currently I am a MS student at Arizona State University. During my undergraduate years, I was a member of [Science and Technology Innovation Center](https://news.hust.edu.cn/info/1003/8062.htm) at [Huazhong University of Science and Technology](https://english.hust.edu.cn/) and served as a TA as well.
+Hello! I'm Xiangyu $\left[\large{\textup{ʃjɑːŋ juː}}\right]$, a PhD student at [Arizona State University](https://www.asu.edu), where I also earned my Master's degree. It is my pleasure to be advised by Prof. [Jeff (Jun) Zhang](https://search.asu.edu/profile/4346755).
 
-I am passionate about leveraging the power of communication technology and machine learning to solve real-world problems. My academic journey has equipped me with a solid foundation in communication engineering, and now I am excited to explore the endless possibilities that machine learning offers.
+My interest includes **explainable artificial intelligence**, **vision language models**, and **computer vision**. Currently I am focusing on the explainability of LVLMs.
+
+I am fascinated by the intelligence of large models and I believe they would change and `reshape` the world.
 
 <!--
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->

@@ -2,14 +2,18 @@
 ---
 
 @misc{zhou2026owenbasedsemanticshierarchyawareexplanation,
-      title={Owen-based Semantics and Hierarchy-Aware Explanation (O-Shap)}, 
-      author={Xiangyu Zhou and Chenhan Xiao and Yang Weng},
-      year={2026},
-      eprint={2602.17107},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2602.17107},
-      arxiv={2602.17107},
-      code={https://github.com/Shaun-Z/O-SHAP},
-      pdf={https://arxiv.org/pdf/2602.17107.pdf}
+      title             = {Owen-based Semantics and Hierarchy-Aware Explanation (O-Shap)}, 
+      author            = {Xiangyu Zhou and Chenhan Xiao and Yang Weng},
+      year              = {2026},
+      eprint            = {2602.17107},
+      archivePrefix     = {arXiv},
+      primaryClass      = {cs.AI},
+      url               = {https://arxiv.org/abs/2602.17107},
+      arxiv             = {2602.17107},
+      code              = {https://github.com/Shaun-Z/O-SHAP},
+      pdf               = {https://arxiv.org/pdf/2602.17107.pdf},
+      preview           = {O-Shap.svg},
+      abbr              = {XAI},
+      bibtex_show       = {true},
+      abstract          = {Shapley value-based methods have become foundational in explainable artificial intelligence (XAI), offering theoretically grounded feature attributions through cooperative game theory. However, in practice, particularly in vision tasks, the assumption of feature independence breaks down, as features (i.e., pixels) often exhibit strong spatial and semantic dependencies. To address this, modern SHAP implementations now include the Owen value, a hierarchical generalization of the Shapley value that supports group attributions. While the Owen value preserves the foundations of Shapley values, its effectiveness critically depends on how feature groups are defined. We show that commonly used segmentations (e.g., axis-aligned or SLIC) violate key consistency properties, and propose a new segmentation approach that satisfies the T-property to ensure semantic alignment across hierarchy levels. This hierarchy enables computational pruning while improving attribution accuracy and interpretability. Experiments on image and tabular datasets demonstrate that O-Shap outperforms baseline SHAP variants in attribution precision, semantic coherence, and runtime efficiency, especially when structure matters.}
 }

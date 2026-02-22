@@ -47,12 +47,23 @@
       "institution": "Arizona State University",
       "location": "Tempe, Arizona, US",
       "url": "https://www.asu.edu/",
+      "area": "Computer Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "2026-01-11",
+      "endDate": "",
+      "score": "",
+      "courses": ["Explainable Artificial Intelligence", "Deep Learning", "Large Vision Language Models"]
+    },
+    {
+      "institution": "Arizona State University",
+      "location": "Tempe, Arizona, US",
+      "url": "https://www.asu.edu/",
       "area": "Electrical Engineering",
       "studyType": "M.S.",
       "startDate": "2023-08-07",
-      "endDate": "",
+      "endDate": "2025-12-21",
       "score": "",
-      "courses": ["Machine Learning", "Computer Vision", "Electrical Engineering", "Computer Science"]
+      "courses": ["Explainable Artificial Intelligence", "Deep Learning", "Computer Vision", "Electrical Engineering"]
     },
     {
       "institution": "Huazhong University of Science and Technology",
@@ -78,7 +89,7 @@
       "position": "Research Assistant",
       "url": "https://engineering.asu.edu/",
       "startDate": "2023-08-07",
-      "endDate": "2025-05-11",
+      "endDate": "",
       "summary": "I am a research assistant at the Ira A. Fulton Schools of Engineering at Arizona State University.",
       "highlights": ["Research on Explainable Artificial Intelligence (XAI)", "Machine Learning"]
     },
@@ -100,7 +111,7 @@
     {
       "name": "China Telecom Xiantao Branch",
       "position": "Intern Cloud Engineer",
-      "url": "https://www.hust.edu.cn/",
+      "url": "",
       "startDate": "2022-07-01",
       "endDate": "2022-08-28",
       "summary": "I was responsible for monitoring the network and maintaining the network equipment.",
@@ -169,11 +180,11 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Owen-based Semantics and Hierarchy-Aware Explanation (O-Shap)",
+      "publisher": "IEEE ICDM 2025",
+      "releaseDate": "2026-02-19",
+      "url": "https://arxiv.org/abs/2602.17107",
+      "summary": "Shapley value-based methods have become foundational in explainable artificial intelligence (XAI), offering theoretically grounded feature attributions through cooperative game theory. However, in practice, particularly in vision tasks, the assumption of feature independence breaks down, as features (i.e., pixels) often exhibit strong spatial and semantic dependencies. To address this, modern SHAP implementations now include the Owen value, a hierarchical generalization of the Shapley value that supports group attributions. While the Owen value preserves the foundations of Shapley values, its effectiveness critically depends on how feature groups are defined. We show that commonly used segmentations (e.g., axis-aligned or SLIC) violate key consistency properties, and propose a new segmentation approach that satisfies the T-property to ensure semantic alignment across hierarchy levels. This hierarchy enables computational pruning while improving attribution accuracy and interpretability. Experiments on image and tabular datasets demonstrate that O-Shap outperforms baseline SHAP variants in attribution precision, semantic coherence, and runtime efficiency, especially when structure matters."
     }
   ],
   "projects": [
