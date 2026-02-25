@@ -467,11 +467,18 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/xiangyu-zhou-86ba89290", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-scholar',
+        title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://publish.obsidian.md/xiangyu-notes/Home+Page", "_blank");
+          window.open("https://scholar.google.com/citations?user=xlM7QbMAAAAJ&hl", "_blank");
+        },
+      },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://search.asu.edu/profile/4757360", "_blank");
         },
       },{
       id: 'light-theme',
