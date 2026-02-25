@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I'm Xiangyu $\left[\large{\textup{ʃjɑːŋ juː}}\right]$, a PhD student at [Arizona State University](https://www.asu.edu), where I also earned my Master's degree. It is my pleasure to be advised by Prof. [Jeff (Jun) Zhang](https://search.asu.edu/profile/4346755).
+Hello! I'm **Xiangyu Zhou** $\large{\textup{/ʃjɑŋ juː dʒoʊ/}}$ , a PhD student at [Arizona State University](https://www.asu.edu), where I also earned my Master's degree. It is my pleasure to be advised by Prof. [Jeff (Jun) Zhang](https://search.asu.edu/profile/4346755).
 
 My interest includes **explainable artificial intelligence**, **vision language models**, and **computer vision**. Currently I am focusing on the explainability of LVLMs.
 
