@@ -181,13 +181,60 @@
   "publications": [
     {
       "name": "Owen-based Semantics and Hierarchy-Aware Explanation (O-Shap)",
-      "publisher": "IEEE ICDM 2025",
-      "releaseDate": "2026-02-19",
-      "url": "https://arxiv.org/abs/2602.17107",
+      "publisher": "2025 IEEE International Conference on Data Mining (ICDM)",
+      "releaseDate": "2025-11-12",
+      "url": "https://ieeexplore.ieee.org/document/11391888",
       "summary": "Shapley value-based methods have become foundational in explainable artificial intelligence (XAI), offering theoretically grounded feature attributions through cooperative game theory. However, in practice, particularly in vision tasks, the assumption of feature independence breaks down, as features (i.e., pixels) often exhibit strong spatial and semantic dependencies. To address this, modern SHAP implementations now include the Owen value, a hierarchical generalization of the Shapley value that supports group attributions. While the Owen value preserves the foundations of Shapley values, its effectiveness critically depends on how feature groups are defined. We show that commonly used segmentations (e.g., axis-aligned or SLIC) violate key consistency properties, and propose a new segmentation approach that satisfies the T-property to ensure semantic alignment across hierarchy levels. This hierarchy enables computational pruning while improving attribution accuracy and interpretability. Experiments on image and tabular datasets demonstrate that O-Shap outperforms baseline SHAP variants in attribution precision, semantic coherence, and runtime efficiency, especially when structure matters."
     }
   ],
   "projects": [
+    {
+      "name": "LCCF: Layer-wise Concept Capture and Fusion for Interpretable Deep Learning",
+      "summary": "Create a lightweight and efficient framework for capturing and fusing concepts across different layers of deep neural networks, enabling enhanced interpretability without significant computational overhead.",
+      "highlights": [
+        "Design and implement novel algorithms for concept extraction and fusion, demonstrating their effectiveness on benchmark datasets (ImageNet) and real-world applications (medical imaging)",
+        "Conduct extensive experiments to evaluate the performance of LCCF in terms of interpretability, accuracy, and computational efficiency, showing significant improvements over existing methods, such as LeGrad."
+      ],
+      "startDate": "2025-10-01",
+      "endDate": "2026-01-28",
+      "url": "https://github.com/Shaun-Z/Layerwise-Concept-Capture-and-Fusion"
+    },
+    {
+      "name": "Jetson Inference: Hello AI World Project",
+      "summary": "Forked and customized NVIDIA's jetson-inference project to run real-time object detection on NVIDIA Jetson Orin NX.",
+      "highlights": [
+        "Deployed the official Docker container and created a custom image with CUDA-enabled OpenCV, publishing it on Docker Hub.",
+        "Integrated deep learning models with onboard camera input to demonstrate real-time AI applications on Linux for Tegra."
+      ],
+      "startDate": "2025-05-01",
+      "endDate": "2025-06-01",
+      "url": "https://github.com/Shaun-Z/jetson-inference"
+    },
+    {
+      "name": "Attack Detection for Renewable Energy Systems Based on Cyclic Generative Networks",
+      "summary": "Developed a novel attack detection framework for renewable energy systems using cycleGANs to model normal operational patterns and identify anomalies indicative of cyber-attacks.",
+      "highlights": [
+        "Integrated LSTM modules into the cycleGAN architecture to capture temporal dependencies in time-series data.",
+        "Utilized domain mapping and cycle-reconstruction loss to flag inputs exhibiting inconsistent round-trip transformation.",
+        "Quantitatively evaluated anomaly by comparing reconstruction loss distributions between normal and abnormal data groups.",
+        "Achieved over 92% AUC in distinguishing abnormal samples, validating the effectiveness of the cycleGAN-based approach."
+      ],
+      "startDate": "2024-05-01",
+      "endDate": "2024-11-01",
+      "url": "https://github.com/Shaun-Z/cycleGAN_cybersecurity"
+    },
+    {
+      "name": "Electricity Theft Detection Framework Using TSUNet and k-Shape Clustering",
+      "summary": "Proposed a scalable and generalizable electricity theft detection framework based on deep learning.",
+      "highlights": [
+        "Implemented adaptive k-shape clustering to select behaviorally diverse normal samples, balancing the dataset.",
+        "Developed TSUNet, a time-series U-Net model, to capture multi-scale temporal features and generate localized time-step-level theft predictions.",
+        "Validated the approach on both public (SGCC) and private U.S. utility datasets, achieving strong cross-domain generalization."
+      ],
+      "startDate": "2024-02-01",
+      "endDate": "2024-10-01",
+      "url": "https://github.com/Shaun-Z/Pytorch-Unet-timeseries"
+    },
     {
       "name": "Signal Distortion Measuring Device",
       "summary": "Design a signal distortion measuring device based on TI's MCU. The device can measure the distortion of the signal and display the result on the screen.",
@@ -207,6 +254,28 @@
       "startDate": "2022-04-01",
       "endDate": "2022-10-01",
       "url": "/projects/backscatter/"
+    },
+    {
+      "name": "Digital Filter Design and Implementation on XILINX FPGA",
+      "summary": "Implemented an FIR filter on XILINX FPGA using Verilog and SystemVerilog, achieving real-time processing of audio signals.",
+      "highlights": [
+        "Generated parameters of the FIR filter using MATLAB's Filter Designer (fdatool) to specify order, cutoff frequency, and window type for optimal audio signal processing.",
+        "Optimized the filter implementation by restructuring the tap delay line and using fixed-point arithmetic, reducing LUT utilization by 35% and RAM usage by 40%"
+      ],
+      "startDate": "2022-07-01",
+      "endDate": "2022-08-01"
+    },
+    {
+      "name": "Circuit Checking System Based on ZYNQ",
+      "summary": "Designed and implemented a circuit checking system based on ZYNQ, enabling real-time monitoring and analysis of electrical circuits.",
+      "highlights": [
+        "Built PCBs for high-speed ADC (AD9226) and DAC (AD9767) chips to interface with ZYNQ.",
+        "Developed FPGA logics in Verilog and package them into AXI-lite IP for ADC/DAC sampling and interfacing with ARM cores.",
+        "Programmed the ARM core in C to acquire and transmit >100 MHz voltage signals from circuit probes.",
+        "Identified fault types and locations based on frequency-domain attenuation; achieved 90% accuracy in fault localization."
+      ],
+      "startDate": "2021-06-01",
+      "endDate": "2021-08-01"
     }
   ],
   "volunteer": [
