@@ -405,7 +405,18 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-we-ranked-in-the-top-8-in-the-renesas-hust-undergraduates-intelligent-vehicle-championship-️",
+            },},{id: "news-a-simple-inline-announcement",
+          title: 'A simple inline announcement.',
+          description: "",
+          section: "News",},{id: "news-a-long-announcement-with-details",
+          title: 'A long announcement with details',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
+          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-we-ranked-in-the-top-8-in-the-renesas-hust-undergraduates-intelligent-vehicle-championship-️",
           title: 'We ranked in the top 8 in the “Renesas” HUST Undergraduates Intelligent Vehicle...',
           description: "",
           section: "News",},{id: "news-we-won-the-second-prize-in-2021-ti-cup-national-undergraduate-electronics-design-contest-only-top-5-can-be-awarded-on-a-national-level-with-no-more-than-4-first-and-second-prizes-in-one-university-️",
