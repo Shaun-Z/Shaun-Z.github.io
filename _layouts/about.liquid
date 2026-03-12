@@ -73,6 +73,17 @@ layout: default
       </div>
     {% endif %}
 
+    <!-- Visitor Map -->
+    <div class="row justify-content-center mt-5">
+      <div class="col-auto">
+        <script
+          type="text/javascript"
+          id="clustrmaps"
+          src="//clustrmaps.com/map_v2.js?d=no_051NXq398ddK60pYSk4xoqri7p_cToriWE8_dXZc&cl=ffffff&w=a"
+        ></script>
+      </div>
+    </div>
+
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
