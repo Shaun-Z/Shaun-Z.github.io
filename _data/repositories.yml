@@ -6,3 +6,4 @@ repo_description_lines_max: 2
 github_repos:
   - Shaun-Z/O-SHAP
   - Shaun-Z/LeGrad
+  - Shaun-Z/Layerwise-Concept-Capture-and-Fusion
