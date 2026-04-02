@@ -6,7 +6,7 @@ subtitle: <a href='https://engineering.asu.edu/'>PhD Student</a>.
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>xzhou185@asu.edu</p>
