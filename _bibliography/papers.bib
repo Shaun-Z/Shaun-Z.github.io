@@ -20,12 +20,17 @@
 }
 
 @ARTICLE{11670554,
-  author={Xiao, Chenhan and Zhou, Xiangyu and Weng, Yang},
-  journal={IEEE Transactions on Smart Grid}, 
-  title={Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI}, 
-  year={2026},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Modeling;Signal detection;Measurement;Convolutional neural networks;Voltage;Transformers;Accuracy;Timing;Long short term memory;Power systems;Outage detection;distribution grid;trust for system operators;explainable AI;Shapley value},
-  doi={10.1109/TSG.2026.3728733}}
+      author          = {Xiao, Chenhan and Zhou, Xiangyu and Weng, Yang},
+      journal         = {IEEE Transactions on Smart Grid}, 
+      title           = {Evaluating the Trustworthiness of Machine Learning-based Outage Detection in Distribution Grids Using Explainable AI}, 
+      year            = {2026},
+      volume          = {},
+      number          = {},
+      pages           = {1-1},
+      preview         = {ieee2025.png},
+      abbr            = {XAI},
+      bibtex_show     = {true},
+      keywords        = {Modeling;Signal detection;Measurement;Convolutional neural networks;Voltage;Transformers;Accuracy;Timing;Long short term memory;Power systems;Outage detection;distribution grid;trust for system operators;explainable AI;Shapley value},
+      doi             = {10.1109/TSG.2026.3728733},
+      abstract        = {Outage detection in distribution grids increasingly relies on machine learning (ML) models for their scalability and fast inference. However, their black-box nature limits practical adoption, as operators require insight into how decisions are made to ensure trust and safety. This paper introduces a physics-based interpretability framework that enables utilities to assess not only the accuracy but also the physical consistency of ML-based outage detectors. Leveraging the Shapley value to quantify the marginal contribution of each bus to model predictions, we exploit a unique advantage in power systems: the true cause of the outage (e.g., the faulted bus) is known, which enables direct verification of explanations. We propose domain-adapted interpretability metrics (SHAP-Accuracy, SHAP-Recall, SHAP-F1) to quantify whether a model attributes importance to physically relevant features. Our evaluation across diverse ML architectures reveals that some high-performing models rely on spurious correlations rather than true outage indicators, an insight that traditional accuracy metrics fail to reveal. To support these findings, we develop a theoretical framework that models outage-induced shifts in the data distribution, and shows why physically consistent models should localize attribution near the faulted buses. By aligning explainability with system physics, our method provides a quantitative framework for selecting trustworthy ML models in outage detection tasks. Extensive experiments on four real-world feeder systems show that convolutional neural networks (CNNs) maintain physically aligned explanations under varying system sizes and noise levels, highlighting their robustness for reliable outage detection.}
+}
