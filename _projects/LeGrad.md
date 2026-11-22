@@ -102,7 +102,7 @@ Vision Transformers have revolutionized computer vision, but their complex atten
 
 Based on the research paper:
 
-**LeGrad:  An Explainability Method for Vision Transformers via Feature Formation Sensitivity**  
+**LeGrad: An Explainability Method for Vision Transformers via Feature Formation Sensitivity**
 
 [Paper Link](https://openaccess.thecvf.com/content/ICCV2025/html/Bousselham_LeGrad_An_Explainability_Method_for_Vision_Transformers_via_Feature_Formation_ICCV_2025_paper.html)
 
@@ -118,4 +118,4 @@ Based on the research paper:
 
 ---
 
-*Feel free to explore the code, try it with your own images, and contribute to making Vision Transformers more interpretable!*
+_Feel free to explore the code, try it with your own images, and contribute to making Vision Transformers more interpretable!_
